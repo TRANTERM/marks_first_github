@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Tabcorp_redshift" uuid="95cb845a-2477-45a6-b616-4d2510104d42">
+      <driver-ref>redshift</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.amazon.redshift.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:redshift://analytics-production.cqhuxbkape0v.ap-southeast-2.redshift.amazonaws.com:5439/fixedodds</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Tabcorp_teradata_prd" uuid="ce3bdac8-3b98-4e1c-b1b4-bb86d6685864">
+      <driver-ref>teradata</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.teradata.jdbc.TeraDriver</jdbc-driver>
+      <jdbc-url>jdbc:teradata://teradata.prod.analytics.in.cld/DATABASE=DB_PRD,DBS_PORT=1025,LOGMECH=LDAP</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
